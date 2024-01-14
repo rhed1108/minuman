@@ -1,9 +1,695 @@
-<!doctype html>
-<html>
-  <head>
-    <title>This is the title of the webpage!</title>
-  </head>
-  <body>
-    <p>This is an example paragraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <!-- META DATA -->
+	<title>PORTLIO :: Multi-Purpose Portfolio HTML Landing Page Template for Creatives by Codefest&trade;</title>
+	<meta name="description" content="Portlio is a multi-purpose HTML portfolio template for creatives by Codefest&trade;. Purchase now.">
+	<meta name="keywords" content="Portlio,Codefest">
+	<meta name="author" content="Codefest">	
+	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <!-- FAVICON -->
+	<link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <!-- STYLESHEETS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">	
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/js/owlcarousel/owl.theme.default.min.css">
+	<link rel="stylesheet" href="assets/js/owlcarousel/owl.carousel.min.css">
+	<!-- FONTS -->
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<!-- SCRIPTS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+	<script src="assets/js/smoothscroll.js"></script>  
+</head>
+<body>
+	<!-- NAVBAR -->
+		<nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-header navbar-mobile">
+			<div class="navbar-container container">
+				<!-- LOGO -->
+				<div class="navbar-brand">
+					<a class="navbar-brand-logo" href="#top">
+						<img src="assets/images/logo.png" width="140px">
+					</a>
+				</div>
+				<button class="navbar-toggler" 
+						type="button" 
+						data-toggle="collapse" 
+						data-target="#navbarNav" 
+						aria-controls="navbarNav" 
+						aria-expanded="false" 
+						aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+
+					<ul class="navbar-nav menu-navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="#top">
+								<p class="nav-link-menu">Home</p>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#aboutSection">
+								<p class="nav-link-menu">About</p>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#projectSection">
+								<p class="nav-link-menu">Projects</p>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#reviewSection">
+								<p class="nav-link-menu">Testimonials</p>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#blogSection">
+								<p class="nav-link-menu">Blog</p>
+							</a>
+						</li>
+						<li class="nav-item nav-item-last">
+							<a class="theme-btn" href="#contactSection">
+								Start a Project
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+    <!-- SECTION LABEL -->
+	<div id="top"></div>
+		<!-- WRAPPER -->	
+		<div class="wrapper">
+			<div id="header" class="header-section">
+				<div class="hero-section">
+					<div class="header-section-bg">
+						<img src="assets/images/designer.png">
+					</div>
+					<div class="container header-container">
+						<p class="header-subtitle">Hey, I'm</p>
+						<h1 class="header-title">Brad Smith</h1>
+						<p class="header-details">Graphic Designer, Artist &amp; Illustrator</p>
+					</div>
+					
+					<div class="social-section-container">
+						<div class="container social-section">
+							<a href="#top" class="social-icon-section" target="_blank">
+								<img class="social-icon-black" src="assets/images/facebook.svg">
+								<img class="social-icon-color" src="assets/images/facebook-hover.svg">
+							</a>
+							<a href="#top" class="social-icon-section">
+								<img class="social-icon-black" src="assets/images/twitter.svg">
+								<img class="social-icon-color" src="assets/images/twitter-hover.svg">
+							</a>
+							<a href="#top" class="social-icon-section">
+								<img class="social-icon-black" src="assets/images/behance.svg">
+								<img class="social-icon-color" src="assets/images/behance-hover.svg">
+							</a>
+							<a href="#top" class="social-icon-section">
+								<img class="social-icon-black" src="assets/images/dribble.svg">
+								<img class="social-icon-color" src="assets/images/dribble-hover.svg">
+							</a>
+							<a href="#top" class="social-icon-section">
+								<img class="social-icon-black" src="assets/images/pinterest.svg">
+								<img class="social-icon-color" src="assets/images/pinterest-hover.svg">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+    	<!-- SECTION LABEL -->
+		<div id="headerBottom"></div>
+			<!-- HEADER BOTTOM -->     
+			<div class="header-bottom-gradient-section">
+            	<!-- Keep above for a subtle gradient -->            
+            	<div class="header-bottom-display-section">
+                    <div class="col-lg-2 col-md-4 col-sm-4 col-6 header-bottom-display-block">
+                        <div class="header-bottom-display-card">
+                            <img src="assets/images/projects/1.jpg">
+                            <div class="header-bottom-display-hover-card">
+                                <div class="header-bottom-display-hover-card-content">
+                                    <h3>Project 1</h3>
+                                    <p>Feature your top projects and open in a modal popup</p>
+                                    <a href="#img1" class="header-bottom-display-hover-card-content-btn" title="Visit image">
+                                        <img src="assets/images/btn-arrow.svg">
+                                    </a>
+                                </div>									
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4 col-6 header-bottom-display-block">
+                        <div class="header-bottom-display-card">
+                            <img src="assets/images/projects/2.jpg">
+                            <div class="header-bottom-display-hover-card">
+                                <div class="header-bottom-display-hover-card-content">
+                                    <h3>Project 2</h3>
+                                    <p>A modal popup is great for graphic design work</p>
+                                    <a href="#img2" class="header-bottom-display-hover-card-content-btn" title="Visit image">
+                                        <img src="assets/images/btn-arrow.svg">
+                                    </a>
+                                </div>									
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4 col-6 header-bottom-display-block">
+                        <div class="header-bottom-display-card">
+                            <img src="assets/images/projects/3.jpg">
+                            <div class="header-bottom-display-hover-card">
+                                <div class="header-bottom-display-hover-card-content">
+                                    <h3>Project 3</h3>
+                                    <p>Modal popups are also great for illustration work</p>
+                                    <a href="#img3" class="header-bottom-display-hover-card-content-btn" title="View image">
+                                        <img src="assets/images/btn-arrow.svg">
+                                    </a>
+                                </div>									
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4 col-6 header-bottom-display-block">
+                        <div class="header-bottom-display-card">
+                            <img src="assets/images/projects/4.jpg">
+                            <div class="header-bottom-display-hover-card">
+                                <div class="header-bottom-display-hover-card-content">
+                                    <h3>Project 4</h3>
+                                    <p>You can also link to a URL if you're a web designer, like below</p>
+                                    <a href="#img4" class="header-bottom-display-hover-card-content-btn" title="View image">
+                                        <img src="assets/images/btn-arrow.svg">
+                                    </a>
+                                </div>									
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4 col-6 header-bottom-display-block">
+                        <div class="header-bottom-display-card">
+                            <img src="assets/images/projects/5.jpg">
+                            <div class="header-bottom-display-hover-card">
+                                <div class="header-bottom-display-hover-card-content">
+                                    <h3>Project 5</h3>
+                                    <p>A modal popup is great for graphic design work</p>
+                                    <a href="#img5" class="header-bottom-display-hover-card-content-btn" title="View image">
+                                        <img src="assets/images/btn-arrow.svg">
+                                    </a>
+                                </div>									
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4 col-6 header-bottom-display-block">
+                        <div class="header-bottom-display-card">
+                            <img src="assets/images/projects/6.jpg">
+                            <div class="header-bottom-display-hover-card">
+                                <div class="header-bottom-display-hover-card-content">
+                                    <h3>Project 6</h3>
+                                    <p>Modal popups are also great for illustration work</p>
+                                    <a href="#img6" class="header-bottom-display-hover-card-content-btn" title="View image">
+                                        <img src="assets/images/btn-arrow.svg">
+                                    </a>
+                                </div>									
+                            </div>
+                        </div>
+                    </div>     
+                    <!-- IMAGE MODALS BEGIN -->
+                    <!-- Image #1 Modal -->
+                    <div id="img1" class="image-modal">
+                        <div>
+                            <a href="#headerBottom" title="Close" class="modal-close"></a>
+                            <img src="assets/images/projects/1.jpg">
+                        </div>
+                    </div>
+                    <!-- Image #2 Modal -->
+                    <div id="img2" class="image-modal">
+                        <div>
+                            <a href="#headerBottom" title="Close" class="modal-close"></a>
+                            <img src="assets/images/projects/2.jpg">
+                        </div>
+                    </div>
+                    <!-- Image #3 Modal -->
+                    <div id="img3" class="image-modal">
+                        <div>
+                            <a href="#headerBottom" title="Close" class="modal-close"></a>
+                            <img src="assets/images/projects/3.jpg">
+                        </div>
+                    </div>
+                    <!-- Image #4 Modal -->
+                    <div id="img4" class="image-modal">
+                        <div>
+                            <a href="#headerBottom" title="Close" class="modal-close"></a>
+                            <img src="assets/images/projects/4.jpg">
+                        </div>
+                    </div>
+                    <!-- Image #5 Modal -->
+                    <div id="img5" class="image-modal">
+                        <div>
+                            <a href="#headerBottom" title="Close" class="modal-close"></a>
+                            <img src="assets/images/projects/5.jpg">
+                        </div>
+                    </div>
+                    <!-- Image #6 Modal -->
+                    <div id="img6" class="image-modal">
+                        <div>
+                            <a href="#headerBottom" title="Close" class="modal-close"></a>
+                            <img src="assets/images/projects/6.jpg">
+                        </div>
+                    </div>
+                </div>                
+    		<!-- SECTION LABEL -->
+			<div id="aboutSection"></div>
+				<!-- ABOUT -->
+				<div class="about-section">                
+                	<div class="about-section-title-container container">
+						<div class="about-section-title-bg">
+						</div>
+						<div class="about-section-subtitle">
+							<p>About</p>
+						</div>
+						<div class="col-md-10 about-section-title-section">
+							<div class="col-md-12 about-section-title">
+								<h2>Who said a landing page can't display an abundance of content beautifully</h2>
+							</div>
+						</div>
+					</div>                    
+					<div class="about-section-container container">
+						<p>Portlio is a bright and bold landing page <span class="about-section-underline about-section-underline-one">template</span> for professionals and freelancers to display their <span class="about-section-underline about-section-underline-two">artworks or portfolio</span>. If you're a web designer, use the <span class="about-section-underline about-section-underline-three">projects section</span> below to link directly to the live version of your clients' website.</p>
+					</div>                 
+					<!-- Divider -->
+					<div class="about-divider">
+						<img src="assets/images/divider_illustration.png">
+					</div>
+				</div>
+    		<!-- SECTION LABEL -->
+			<div id="projectSection"></div>
+				<!-- PROJECTS -->
+				<div class="project-section">
+					<div class="container project-section-title-container">
+						<div class="project-section-title-bg">
+						</div>
+						<div class="project-section-subtitle">
+							<p>My Projects</p>
+						</div>
+						<div class="col-md-12 project-section-title-section">
+							<div class="col-md-8 project-section-title">
+								<h2>I've done many exciting projects which you can view below</h2>
+							</div>
+							<div class="col-md-4 project-section-btn">
+								<a class="theme-btn" href="#reviewSection">
+									View testimonials
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="project-display-section">
+						<div class="col-lg-3 col-md-6 col-sm-6 col-12 project-display-block">
+							<div class="project-display-card">
+								<img src="assets/images/projects/7.jpg">
+								<div class="project-display-hover-card">
+									<div class="project-display-hover-card-content">
+										<h3>Portfolio 1</h3>
+										<p>If you're a web designer, this template works great too. Just link these project images to your client live website.</p>
+										<a href="https://themeforest.net/user/codefest/portfolio?ref=codefest" class="project-display-hover-card-content-btn" title="Visit site" target="_blank">
+											<img src="assets/images/btn-arrow.svg">
+										</a>
+									</div>									
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-6 col-12 project-display-block">
+							<div class="project-display-card">
+								<img src="assets/images/projects/8.jpg">
+								<div class="project-display-hover-card">
+									<div class="project-display-hover-card-content">
+										<h3>Portfolio 2</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eros felis</p>
+										<a href="https://themeforest.net/user/codefest/portfolio?ref=codefest" class="project-display-hover-card-content-btn" title="Visit site" target="_blank">
+											<img src="assets/images/btn-arrow.svg">
+										</a>
+									</div>									
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-6 col-12 project-display-block">
+							<div class="project-display-card">
+								<img src="assets/images/projects/9.jpg">
+								<div class="project-display-hover-card">
+									<div class="project-display-hover-card-content">
+										<h3>Portfolio 3</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eros felis</p>
+										<a href="https://themeforest.net/user/codefest/portfolio?ref=codefest" class="project-display-hover-card-content-btn" title="Visit site" target="_blank">
+											<img src="assets/images/btn-arrow.svg">
+										</a>
+									</div>									
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-6 col-12 project-display-block">
+							<div class="project-display-card">
+								<img src="assets/images/projects/10.jpg">
+								<div class="project-display-hover-card">
+									<div class="project-display-hover-card-content">
+										<h3>Portfolio 4</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eros felis</p>
+										<a href="https://themeforest.net/user/codefest/portfolio?ref=codefest" class="project-display-hover-card-content-btn" title="Visit site" target="_blank">
+											<img src="assets/images/btn-arrow.svg">
+										</a>
+									</div>									
+								</div>
+							</div>
+						</div>
+                        <!-- Second Row -->
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12 project-display-block">
+							<div class="project-display-card">
+								<img src="assets/images/projects/11.jpg">
+								<div class="project-display-hover-card">
+									<div class="project-display-hover-card-content">
+										<h3>Portfolio 5</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eros felis</p>
+										<a href="https://themeforest.net/user/codefest/portfolio?ref=codefest" class="project-display-hover-card-content-btn" title="Visit site" target="_blank">
+											<img src="assets/images/btn-arrow.svg">
+										</a>
+									</div>									
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-6 col-12 project-display-block">
+							<div class="project-display-card">
+								<img src="assets/images/projects/12.jpg">
+								<div class="project-display-hover-card">
+									<div class="project-display-hover-card-content">
+										<h3>Portfolio 6</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eros felis</p>
+										<a href="https://themeforest.net/user/codefest/portfolio?ref=codefest" class="project-display-hover-card-content-btn" title="Visit site" target="_blank">
+											<img src="assets/images/btn-arrow.svg">
+										</a>
+									</div>									
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-6 col-12 project-display-block">
+							<div class="project-display-card">
+								<img src="assets/images/projects/13.jpg">
+								<div class="project-display-hover-card">
+									<div class="project-display-hover-card-content">
+										<h3>Portfolio 7</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eros felis</p>
+										<a href="https://themeforest.net/user/codefest/portfolio?ref=codefest" class="project-display-hover-card-content-btn" title="Visit site" target="_blank">
+											<img src="assets/images/btn-arrow.svg">
+										</a>
+									</div>									
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-6 col-12 project-display-block">
+							<div class="project-display-card">
+								<img src="assets/images/projects/14.jpg">
+								<div class="project-display-hover-card">
+									<div class="project-display-hover-card-content">
+										<h3>Portfolio 8</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eros felis</p>
+										<a href="https://themeforest.net/user/codefest/portfolio?ref=codefest" class="project-display-hover-card-content-btn" title="Visit site" target="_blank">
+											<img src="assets/images/btn-arrow.svg">
+										</a>
+									</div>									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+    	<!-- SECTION LABEL -->
+		<div id="reviewSection"></div>
+			<!-- REVIEWS -->
+			<div class="reviews-section">
+				<div class="col-md-12 review-section-container">
+					<div class="col-lg-5 col-md-12 review-section-image-section">
+						<div class="review-section-img-card">
+							<img src="assets/images/review-header-img.png">
+						</div>
+					</div>
+					<div class="col-lg-7 col-md-12 reviews-details-section">
+						<div class="container reviews-section-title-container">
+							<div class="reviews-section-title-bg">
+							</div>
+							<div class="reviews-section-subtitle">
+								<p>Testimonials</p>
+							</div>
+							<div class="col-md-10 reviews-section-title-section">
+								<div class="reviews-section-title">
+									<h2>Read through what my clients have to say about me</h2>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-10 col-md-offset-1 owl-carousel owl-theme reviews-carousel">
+						    <div class="item">
+						    	<div class="reviews-card-section">
+						    		<div class="reviews-card">
+						    			<div class="reviews-card-quote"></div>
+						    			<p class="reviews-card-quote-review">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum efficitur porttitor. Aliquam non magna non leo pellentesque posuere. Maecenas.</p>
+						    			<div class="reviews-card-author-section">
+						    				<img class="reviews-card-author-section-profile" src="assets/images/reviewer.png">
+						    				<div class="reviews-card-author-section-title-section">
+						    					<p class="reviews-card-author-section-title">Jason Broom</p>
+						    					<p class="reviews-card-author-section-subtitle">CEO, Company</p>
+						    				</div>
+						    			</div>
+						    		</div>
+						    	</div>
+						    </div>
+						    <div class="item">
+						    	<div class="reviews-card-section">
+						    		<div class="reviews-card">
+						    			<div class="reviews-card-quote"></div>
+						    			<p class="reviews-card-quote-review">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum efficitur porttitor. Aliquam non magna non leo pellentesque posuere. Maecenas.</p>
+						    			<div class="reviews-card-author-section">
+						    				<img class="reviews-card-author-section-profile" src="assets/images/reviewer.png">
+						    				<div class="reviews-card-author-section-title-section">
+						    					<p class="reviews-card-author-section-title">Jule Graham</p>
+						    					<p class="reviews-card-author-section-subtitle">CEO, Company</p>
+						    				</div>
+						    			</div>
+						    		</div>
+						    	</div>
+						    </div>
+						    <div class="item">
+						    	<div class="reviews-card-section">
+						    		<div class="reviews-card">
+						    			<div class="reviews-card-quote"></div>
+						    			<p class="reviews-card-quote-review">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum efficitur porttitor. Aliquam non magna non leo pellentesque posuere. Maecenas.</p>
+						    			<div class="reviews-card-author-section">
+						    				<img class="reviews-card-author-section-profile" src="assets/images/reviewer.png">
+						    				<div class="reviews-card-author-section-title-section">
+						    					<p class="reviews-card-author-section-title">Rob Anderson</p>
+						    					<p class="reviews-card-author-section-subtitle">CEO, Company</p>
+						    				</div>
+						    			</div>
+						    		</div>
+						    	</div>
+						    </div>
+						</div>
+					</div>
+				</div>
+				<div class="tech-icons-section">
+					<div class="container tech-icons-container">
+						<div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col-6 tech-icon">
+							<img src="assets/images/dummy_logo1.png">
+						</div>
+						<div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col-6 tech-icon">
+							<img src="assets/images/dummy_logo2.png">
+						</div>
+						<div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col-6 tech-icon">
+							<img src="assets/images/dummy_logo3.png">
+						</div>
+						<div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col-6 tech-icon">
+							<img src="assets/images/dummy_logo1.png">
+						</div>
+						<div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col-6 tech-icon">
+							<img src="assets/images/dummy_logo2.png">
+						</div>
+						<div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col-6 tech-icon">
+							<img src="assets/images/dummy_logo3.png">
+						</div>
+					</div>
+				</div>
+			</div>
+    	<!-- SECTION LABEL -->
+		<div id="blogSection"></div>
+			<!-- BLOG -->
+			<div id="blog" class="blog-section">
+				<div class="container blog-section-title-container">
+					<div class="blog-section-title-bg">
+					</div>
+					<div class="blog-section-subtitle">
+						<p>My Articles</p>
+					</div>
+					<div class="col-md-10 blog-section-title-section">
+						<div class="col-md-12 blog-section-title">
+							<h2>Sometimes I like to write about the things I enjoy doing in my spare time</h2>
+						</div>
+					</div>
+				</div>
+				<div class="container blog-section-container">
+					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 blog-card-section">
+						<div class="blog-card">
+							<div class="blog-card-img-section">
+								<img src="assets/images/blog1.png">
+							</div>
+							<div class="blog-overlay-section">
+								<div class="blog-overlay-category">
+									<a href="#blogSection">Travel</a>
+								</div>
+								<a href="#blogSection" class="blog-overlay-details">
+									<h3>Around the world</h3>
+									<p>You can link these article features to some of your external blog posts.</p>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 blog-card-section">
+						<div class="blog-card featured">
+							<div class="blog-card-img-section">
+								<img src="assets/images/blog2.png">
+							</div>
+							<div class="blog-overlay-section">
+								<div class="blog-overlay-category">
+									<a href="#blogSection">Hobbies</a>
+								</div>
+								<a href="#blogSection" class="blog-overlay-details">
+									<h3>Gaming designs</h3>
+									<p>Why not link these article features to some of your external news articles.</p>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 blog-card-section">
+						<div class="blog-card">
+							<div class="blog-card-img-section">
+								<img src="assets/images/blog3.png">
+							</div>
+							<div class="blog-overlay-section">
+								<div class="blog-overlay-category">
+									<a href="#blogSection">Inspiration</a>
+								</div>
+								<a href="#blogSection" class="blog-overlay-details">
+									<h3>Design inspiration</h3>
+									<p>Direct these article features to some of your other external blog posts.</p>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+    	<!-- SECTION LABEL -->
+		<div id="contactSection"></div>
+			<!-- CONTACT FOOTER -->
+			<div id="contact" class="footer-section">
+				<div class="container footer-section-container">
+					<div class="col-md-5 col-sm-12">
+						<div class="container footer-section-title-container">
+							<div class="footer-section-title-bg">
+							</div>
+							<div class="footer-section-subtitle">
+								<p>Contact Me</p>
+							</div>
+							<div class="col-md-10 footer-section-title-section">
+								<div class="col-md-12 footer-section-title">
+									<h2>Have a project? Let's chat.</h2>
+								</div>
+							</div>
+						</div>
+						<div class="container footer-contact-details">
+							<p>Email: <a href="mailto:mail@domain.com">mail@domain.com</a></p>
+							<p>Tel: <a href="tel:01234567890">+44 (0) 123 456 7890</a></p>
+						</div>
+					</div>
+					<div class="col-md-7 col-sm-12 footer-contact-form-section">
+						<div class="col-md-12 footer-contact-form-card">
+							<form method="post" action="contact.php" class="footer-contact-form"> 
+								<div class="form-group-top">
+									<div class="col-md-6 col-sm-12 form-group">
+										<input type="text" name="full_name" placeholder="Your Name">
+									</div>
+									<div class="col-md-6 col-sm-12 form-group">
+										<input type="email" name="email" placeholder="Email ID">
+                                    	<!-- Leave this here to help prevent SPAM -->
+                                    	<input type="text" id="website" name="website"/>
+									</div>
+								</div>
+								<div class="col-md-12 form-group large">
+									<input type="text" name="message" placeholder="Message"> 
+								</div>
+								<br>
+								<div class="col-md-12 form-group">
+									<button class="theme-btn" type="submit">SEND MESSAGE</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+    		<!-- SECTION LABEL -->
+			<div id="footerSocials"></div>
+            	<!-- FOOTER SOCIALS -->
+				<div class="container footer-secondary-container">
+					<div class="social-section-container footer-social-section-container">
+						<div class="container social-section footer-social-section">
+							<a href="#top" class="social-icon-section" target="_blank">
+								<img class="social-icon-black" src="assets/images/facebook.svg">
+								<img class="social-icon-color" src="assets/images/facebook-hover.svg">
+							</a>
+							<a href="#top" class="social-icon-section">
+								<img class="social-icon-black" src="assets/images/twitter.svg">
+								<img class="social-icon-color" src="assets/images/twitter-hover.svg">
+							</a>
+							<a href="#top" class="social-icon-section">
+								<img class="social-icon-black" src="assets/images/instagram.svg">
+								<img class="social-icon-color" src="assets/images/instagram-hover.svg">
+							</a>
+							<a href="#top" class="social-icon-section">
+								<img class="social-icon-black" src="assets/images/linkedin.svg">
+								<img class="social-icon-color" src="assets/images/linkedin-hover.svg">
+							</a>
+							<a href="#top" class="social-icon-section">
+								<img class="social-icon-black" src="assets/images/behance.svg">
+								<img class="social-icon-color" src="assets/images/behance-hover.svg">
+							</a>
+							<a href="#top" class="social-icon-section">
+								<img class="social-icon-black" src="assets/images/dribble.svg">
+								<img class="social-icon-color" src="assets/images/dribble-hover.svg">
+							</a>
+						</div>
+					</div>
+                    <!-- Footer Credits -->
+					<div class="footer-copyright-section">
+						<p>&copy; 2020 <a href="https://www.codefest.co.uk" title="Codefest" target="_blank">Codefest</a>&trade; All Right Reserved</p>
+					</div>
+				</div>
+			</div>
+		</div>        
+  	<!-- SCRIPTS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script src="assets/js/owlcarousel/owl.carousel.min.js"></script>
+  	<!-- Header script -->
+	<script type="text/javascript">
+			$(window).scroll(function() {
+			    if ($(this).scrollTop() > 20) {
+			      $('#navbar').addClass('header-scrolled');
+			    } else {
+			      $('#navbar').removeClass('header-scrolled');
+			    }
+			  });		
+	</script>    
+  	<!-- Carousel script -->
+	<script>
+		$('.reviews-carousel').owlCarousel({
+		    loop:true,
+		    margin:10,
+		    nav:true,
+		    items: 1,
+		    paging: false,
+		    navText: ["<img src='assets/images/prev.svg'>","<img src='assets/images/next.svg'>"]
+		})
+	</script>
+</body>
 </html>
