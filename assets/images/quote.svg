@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="58" height="49" viewBox="0 0 58 49">
-  <defs>
-    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 39 33">
-      <image width="39" height="33" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAAhCAYAAABa+rIoAAAABHNCSVQICAgIfAhkiAAAAxNJREFUWEftmE+IzkEYxz/rIMmBkiZlDpLk4CRFkmTtaItC/kU48NrcrJQUWQfJn4PLolCbiKUoy1iSlE2S5LBpkzQpc1AkSZLVs+bdfn77+zPv7ntweOfye3vnme/v8zwz8/yemabBwUFimtdmOrAYmAD8AG4pZ3/GjM2y8dqIznxgZugfUM4+S9o2FcF5bdYBFUAD44BZicFPgFbl7LdYQK+NAg4CS4OTSb23QKdy9nRVLxPOa7MCOAJMTQGlORamvc0D9dp0AsuA2QXOdClnt+XCeW32AzuAORERKYXz2kwDroboJyOVJZ8P57U5BGwtiVZStBAurNNuYFGEo2KSDee1WQUcj4yYCL0A1ipnXcFU3gTWRILJmruinD38z7R6bcYDPcDyHKEB4APwPvR/As4pZ98VgO0G2nNmQUC+A/3h+Qt4qpztGrFbvTZ7gVMZLxIRAWpTzsrvqOa1mRScXZIxQIDEsTNlYkO71WtzDzAZxneVs61lIul+r83GsAnSXa8llShn78RoNn2c0SKJ8AIwLzVA1tSGoqkrmNJLwPaM/o7kmioDFLj1wLUMw7PK2bYygax+r819QHJlsr0MG6i6bkulBU6SraSQdGtPZutSpWDgtZkMCNyC1BirnF0ZqyN2RXAypddrERPbAPc5Y1xd4SrK2fN1hOtVzrbUolcUud7wYZccFN0KIvcGOKGcvRgrVgQnGpKT8qoOWdjdytkbyZcVwImZ5MqvQJbD8r+UTEerpVgZXJmT8rLHytmdVcMSuDI96X8F7FHO9o0VrhqN4TqsDnCiOVQr1gNOxB4qZ5tLdmtM1JI2m+oF9xxoUc5+qVPkBLKjXnAiNqUBV+viCPaNyI0ycI01N9rANSL3f0Vul5yGRo30d+AjoFk5+9trI3cqD8LVw1hkK/KFkMsVOfzGnsrTLxxxGPbaSOm/uYabg7Rmn5w3qkfDLcABYG6NrgpYv3J2dXqc1+Z20Cu7H0kPlRrymHL28vAtk9dGLm4EMOYCRwTlxN6jnD2Z55DXZp+UPsDESKelWhYwefIHN390/glTuPwAAAAASUVORK5CYII="/>
-    </pattern>
-  </defs>
-  <rect id="Annotation_2020-06-05_191004" data-name="Annotation 2020-06-05 191004" width="58" height="49" fill="url(#pattern)"/>
-</svg>
